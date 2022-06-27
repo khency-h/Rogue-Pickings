@@ -1,0 +1,141 @@
+/***** BASE STYLES *****/
+body {
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/***** GRID *****/
+.full-width {
+    margin: 0 auto;
+    overflow: auto;
+    width: 1200px;
+}
+
+.half-width {
+    float: left;
+    width: 600px;
+}
+
+.third-width {
+    float: left;
+    width: 400px;
+}
+
+/***** HEADER *****/
+header h1 {
+    font-size: 30px;
+    padding: 30px 5px 20px 5px;
+    text-transform: uppercase;
+}
+
+header h1 span {
+    color: #77a466;
+    font-size: 30px;
+}
+
+nav {
+    float: right;
+    padding: 30px 10px 20px 0px;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    color: #77a466;
+    font-size: 14px;
+    font-weight: bold;
+    padding-left: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+/***** TOP *****/
+#top .full-width {
+    padding: 0px 10px;
+}
+
+#top img {
+    border-bottom: 3px solid #77a466;
+    border-top: 3px solid #77a466;
+    /* To prevent layout shifts and improve performance scores, 
+    we need to always set width and height attributes on our images. */
+}
+
+#top h2 {
+    color: #77a466;
+    font-size: 18px;
+    padding: 5px 0px;
+    text-transform: uppercase;
+}
+
+#top p {
+    line-height: 25px;
+    padding-bottom: 5px; 
+}
+
+/***** BOTTOM *****/
+#bottom {
+    text-align: left;
+}
+
+#bottom .full-width {
+    border-top: 1px solid #dedbdc;
+    border-bottom: 1px solid #dedbdc;
+}
+
+#bottom .third-width {
+    padding: 10px 0;
+}
+
+#bottom h3 {
+    font-size: 12px;
+    line-height: 25px;
+    text-transform: uppercase;
+}
+
+#bottom ul {
+    padding: 0;
+}
+
+#bottom ul li {
+    color: #77a466;
+    font-size: 16px;
+    line-height: 30px;
+    list-style: none;
+    text-align: left;
+}
+
+#bottom p {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+#bottom .reviews {
+    border-left: 1px solid #dedbdc;
+    border-right: 1px solid #dedbdc;
+    padding: 0 25px;
+    box-sizing: border-box;
+}
+
+#bottom .contact {
+    padding-left: 30px;
+    box-sizing: border-box;
+}
+
+/***** FOOTER *****/
+footer p {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 15px 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+footer span {
+    color: #77a466;
+    font-family: 'Galada', cursive;
+    font-size: 16px;
+    text-transform: lowercase;
+}
